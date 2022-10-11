@@ -9,6 +9,8 @@
     align-items: center;
     font-size: 1.4rem;
     color: var(--white-color);  
+    position: relative;
+    height: 40px;
 }
 .header__navbar-list {
     display: flex;
@@ -193,7 +195,7 @@
 }
 .header__logo {
     display: flex;  
-    width: 162px;
+    
     height: 53px; 
     margin-left:10px;
     color: #fff;
@@ -203,22 +205,24 @@
     margin-left: 10px ;
 }
 .find{
-    width: 80%;
-    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
 }
 .header__find {
-    width: 840px;
-    margin-left: 50px;
+    width: 80rem;
+    
     
 }
 .header__cart {
-    width: 138px;
+    width: 10rem;
     margin-top: 12px;
 }
 .header__logo-imgg {
-    margin-left: 22px;
 }
 .header__find-top {
     width: 794px;
